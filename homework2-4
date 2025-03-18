@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.p {
+  font-size: 200%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+img {
+    width: 70%;
+    height: auto;
+    float: left;
+}
+  
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+  border-left: 1px black solid;
+  border-right: 1px black solid;
+}
+table th:first-child,
+    table td:first-child {
+	border-left: 0;}
+    table th:last-child,
+table td:last-child {
+	border-right: 0;}
+  
+</style>
+</head>
+<body>
+<div class="row">
+    
+    <h1 class="column" style="color: red;">2월 취업자 13만6천명 증가…건설업 10개월 연속 '마이너스'(종합)</h1>
+    
+    <p style="color: red; text-align: right; font-size: 150%; padding: 30px;">2025/3/17</p>
+    
+</div>
+
+
+
+<div class="row">
+    <div class="column" style="background-color:#ffffff;">
+      <h2>두 달 연속 10만명대 취업자 증가…제조업·건설업 '고용 한파'</h2>
+      <img src="newsimage.jpg" alt="zzz" width="300">
+      <p style="font-size: 120%;">지난달 취업자가 두 달 연속 10만명대 증가세를 이어갔다.
+        다만 제조업과 건설업의 일자리가 부진은 계속됐다.
+        청년층도 취업자 수와 고용률이 감소하고, '쉬었음'이 처음으로 50만명을 넘어서는 등 '고용 한파'가 계속됐다. <br>
+        12일 통계청이 발표한 '2월 고용동향'에 따르면 지난달 15세 이상 취업자는 2천817만9천명으로, 작년 같은 달과 비교하면 13만6천명 증가했다.   
+        취업자는 지난해 12월 일자리 사업 일시 종료 등 영향으로 5만2천명 감소했다가 지난 1월 13만5천명 늘면서 한 달 만에 증가했다.
+     </p>
+    </div>
+    <div class="column" style="background-color:#ffffff;">
+      <h2>청년층 쉬었음 50만명 '역대 최대'…고용률 ↓·실업률 ↑</h2>
+      <table>
+        <tr>
+          <th>웹 개발(web development)</th>
+        </tr>
+        <tr>
+          <td>인터넷(월드 와이드 웹)이나 인트라넷(사설망)을 위한 웹사이트를 개발하는 일</td>
+        </tr>
+        <tr>
+          <td>단일 정적 문서의 플레인 텍스트에서부터 웹 기반 인터넷 애플리케이션, 전자 비즈니스, 소셜 네트워크 서비스에 이르기까지 개발 범위가 다양함</td>
+        </tr>
+        <tr>
+          <td>웹 디자인, 웹 콘텐츠 개발, 클라이언트 사이드/서버 사이드 스크립트 작업, 웹 서버 및 네트워크 보안 구성, 전자 상업 개발을 아우름</td>
+        </tr>
+        <tr>
+          <td>인터넷 및 WWW 이해, 개발자로서의 웹 프로그래밍 이론과 관련 기술 습득, 웹 프로그래밍 언어 이해와, 이를 바탕</td>
+        </tr>
+        <tr>
+          <td>HTML&CSS과 Javascript를 살펴보고, PHP 프로그래밍 기법 학습, MySQL 연동을 통해 웹 프로그래밍에서 데이터베이스를 이용하는 방법 습득</td>
+        </tr>
+      </table>
+
+
+    </div>
+  </div>
+</body>
+</html>
